@@ -1,4 +1,4 @@
-package io.github.dicousdev;
+package io.github.dicousdev.rendafixa.investimento;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
