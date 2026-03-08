@@ -5,14 +5,14 @@ import java.math.RoundingMode;
 
 public class ImpostoIR {
 
-    public static BigDecimal calcularIR(BigDecimal rendimentoBase, Integer dias) {
+    public static BigDecimal calcularIR(BigDecimal rendimentoBase, Integer diasDecorridos) {
         BigDecimal aliquota;
 
-        if (dias <= 180) {
+        if (diasDecorridos <= 180) {
             aliquota = new BigDecimal("0.225");
-        } else if (dias <= 360) {
+        } else if (diasDecorridos <= 360) {
             aliquota = new BigDecimal("0.20");
-        } else if (dias <= 720) {
+        } else if (diasDecorridos <= 720) {
             aliquota = new BigDecimal("0.175");
         } else {
             aliquota = new BigDecimal("0.15");
