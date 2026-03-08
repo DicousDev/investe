@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 public class SimuladorIpcaMais {
 
     public static void main(String[] args) {
-        // TODO: Este método simula um investimento considerando impostos (IOF e IR).
+        // TODO: Este método simula um investimento IPCA+ Taxa Fixa considerando impostos (IOF e IR).
 
         BigDecimal valorInicial = new BigDecimal(20000);
         BigDecimal porcentagemIpcaAnual = new BigDecimal("4.44");
