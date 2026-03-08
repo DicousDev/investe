@@ -16,7 +16,7 @@ public class ImpostoIOF {
         }
     }
 
-    public static BigDecimal calcularValorIOF(BigDecimal rendimentoBruto, Integer diasDecorridos) {
+    public static BigDecimal calcularIOF(BigDecimal rendimentoBruto, Integer diasDecorridos) {
         if (diasDecorridos >= 30) {
             return BigDecimal.ZERO.setScale(2, RoundingMode.HALF_UP);
         }
